@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.restaurants {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.restaurant {
+    background-color: rgb(227, 198, 174);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#foodMenu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food {
+    background-color:  rgb(227, 198, 174);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+#cart {
+    background-color: white;
+    margin-top: 20px;
+}
+
+#cartItems {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
